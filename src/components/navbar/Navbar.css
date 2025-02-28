@@ -1,0 +1,56 @@
+nav {
+    background-color: #292F45;
+    color: #9EA2A9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+.userProfile {
+    display: flex;
+    align-items: center;
+}
+
+.userProfile img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 10px;
+    object-fit: cover;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+nav ul li {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li i.fa-user {
+    width: 35px;
+    height: 35px;
+    background-color: #E76E69;
+    border-radius: 100%;
+    border: 2px solid #292F45;
+    margin-right: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #292F45;
+}
+
+nav ul li i.fa-user::before {
+    border-radius: 100%;
+}
+
+nav ul li i {
+    color: white;
+    font-size: 18px;
+    margin-right: 10px;
+}
