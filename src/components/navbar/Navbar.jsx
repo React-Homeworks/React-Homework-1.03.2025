@@ -9,7 +9,7 @@ export default function Navbar() {
         <img src={userImg} alt="" />
         <div className="user-info">
           <h3>Nikoloz Geladze</h3>
-          <h5>Veb Developer</h5>
+          <h5>Web Developer</h5>
         </div>
       </div>
       <ul>

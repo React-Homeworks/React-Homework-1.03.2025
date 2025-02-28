@@ -1,0 +1,58 @@
+body {
+    background-color: #292F45;
+}
+
+main {
+    background-image: url('./assets/background-image.jpg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 30px;
+    color: white;
+}
+
+main h1, main input {
+    margin-bottom: 35px;
+}
+
+main input {
+    width: 300px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: transparent;
+    border: 2px solid transparent;
+    transition: border 0.3s ease-in-out;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+main input::placeholder {
+    color: white;
+}
+
+main input:focus {
+    outline: none;
+    border: 2px solid #E76E69;
+}
+
+main button {
+    padding: 10px 15px;
+    background-color: #E76E69;
+    border: none;
+    color: #691F11;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+main button:hover {
+    background-color: #d6534a;
+}

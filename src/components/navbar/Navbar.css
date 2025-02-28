@@ -5,11 +5,14 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 20px 50px;
+    position: fixed;
+    width: 100%;
 }
 
 .userProfile {
     display: flex;
     align-items: center;
+    color: white;
 }
 
 .userProfile img {
@@ -41,12 +44,9 @@ nav ul li i.fa-user {
     margin-right: 5px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
+    padding: 5px;
     color: #292F45;
-}
-
-nav ul li i.fa-user::before {
-    border-radius: 100%;
 }
 
 nav ul li i {
